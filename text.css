@@ -1,0 +1,114 @@
+body {
+    background-color: beige;
+}
+
+.box {
+    background-color: rgba(61, 74, 36, 0.598);
+    padding: 30px 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box p {
+    color: white;
+    font-family: "myfont";
+    font-size: 30px;
+    
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(fonts/Evafiya.ttf);
+  }
+
+  
+
+.segunda-box {
+    background-color: #e40202c4;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.terceira-box {
+    background-color: #FF8C00c4;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.quarta-box {
+    background-color: #FFED02c4;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.quinta-box {
+    background-color: #008027c4;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.sexta-box {
+    background-color: #014DFEc4;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.setima-box {
+    background-color: #730583c4;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.fotos {
+    background-image: url(images/coracao\ \(1\).png);
+    background-color: #F7D99B;
+    height: 100%;
+    margin-bottom: 0;
+
+    
+    
+}
+
+
+.segunda {
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.terceira {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.quarta {
+    background-size: cover;
+    image-orientation: center center;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.quinta {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    border-radius: 20px;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "benguiat";
+    src: url(fonts/RoashePersonalUse-jEa4M.otf);
+  }
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.title h1 a {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #e9eccc;
+  background-color: rgba(73, 77, 47, 0.547);
+  border-radius: 20px;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-size: 150px;
+  font-weight: lighter;
+  font-family: "benguiat", sans-serif;
+  text-decoration: none;
+    
+   
+}
+
+  
+body {
+    background-image: url(images/2BZIsHsWuQy0ske0Co22wU.jpg);
+    background-size: cover;
+    background-position: center bottom; /* Alteração aqui para centralizar no topo */
+    height: 100vh;
+    margin: 0;
+      
+    
+  }
+
+    @media screen and (max-width: 500px) {
+      .title h1 a {
+          background-color: #e9eccccd;
+          border-radius: 20px;
+          padding: 15px;
+          color: rgba(47, 77, 56, 0.547);
+          font-size: 70px;
+          font-weight: 500;
+          top: 80%;
+          text-align: center;
+          
+          
+      }
+
+      body {
+        background-image: url(images/37555-Harley-Quinn-HD-Wallpaper.jpg);
+        background-position: left center;
+        
+      }
+  }
+
+  @media screen and (min-width: 501px) {
+
+  .title h1 a {
+    font-size: 90px;
+  }
+  
+ 
+  }
