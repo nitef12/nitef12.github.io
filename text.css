@@ -1,6 +1,23 @@
 body {
-    background-color: beige;
+    background-color: rgba(218, 248, 141, 0.608);
+    opacity: 0;  /* Inicialmente configurado como transparente */
+    transition: opacity 0.5s;
+    
 }
+
+body.loaded {
+    opacity: 1;
+}
+
+.yebbas video {
+    width: 99%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+    
+}
+
+
 
 .box {
     background-color: rgba(61, 74, 36, 0.598);
@@ -66,7 +83,7 @@ body {
 
 .fotos {
     background-image: url(images/coracao\ \(1\).png);
-    background-color: #F7D99B;
+    background-color: #080808dc;
     height: 100%;
     margin-bottom: 0;
 
